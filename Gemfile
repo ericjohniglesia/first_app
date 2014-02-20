@@ -5,8 +5,8 @@ ruby '1.9.3'
 gem 'rails', '4.0.3'
 
 group :production, :test do
-  gem 'pg', '0.15.1' 
-  gem 'rails_12factor', '0.0.2'
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
